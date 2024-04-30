@@ -1,0 +1,65 @@
+.container {
+    height: 100svh;
+    background-color: rgb(46, 46, 46);
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.heading {
+    font-size: 3em;
+    color: rgb(168, 154, 49);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 150px;
+}
+
+#number {
+    height: 30px;
+    font-size: 1em;
+    outline: 0px;
+    border: 1px solid rgb(103, 103, 103);
+    border-radius: 4px;
+    padding-left: 8px;
+}
+
+#convert-btn {
+    background-color: rgb(168, 154, 49);
+    font-size: 1em;
+    color: white;
+    border: 1px solid rgb(168, 154, 49);
+    border-radius: 4px;
+}
+
+.box2 {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    padding-left: 460px;
+}
+
+.box2 h2 {
+    color: rgb(168, 154, 49);
+}
+
+#output {
+    border: 1px solid rgb(168, 154, 49);
+    width: 400px;
+}
+
+.mess {
+    color: rgb(168, 154, 49);
+    text-align: center;
+}
